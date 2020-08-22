@@ -1,0 +1,20 @@
+right
+
+process:
+pebble mojan
+halt
+
+mojan:
+get
+move
+pebble abolf
+halt
+
+abolf:
+get
+right
+right
+move
+right
+right
+jump process

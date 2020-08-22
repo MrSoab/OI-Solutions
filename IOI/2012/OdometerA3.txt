@@ -1,0 +1,43 @@
+right
+
+mojan:
+right
+right
+pebble Left
+right 
+right
+move
+jump mojan
+
+GoLeft:
+pebble Left
+move
+jump GoLeft
+
+GoRight:
+pebble Right
+move
+jump GoRight
+
+Left:
+right
+right
+move
+put
+move
+pebble endit
+jump GoRight
+
+Right:
+left
+left
+move
+put
+move
+jump GoLeft
+
+endit:
+right
+right
+move
+halt

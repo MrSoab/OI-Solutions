@@ -1,0 +1,99 @@
+right
+
+process:
+pebble mojan
+jump firstwin
+
+mojan:
+get
+right
+move
+put
+left
+left
+move
+right
+move
+pebble abolf
+left
+left
+move
+right
+right
+jump secondwin
+
+abolf:
+get
+right
+move
+put
+left
+left
+move
+left
+move
+right
+right
+jump process
+
+firstwin:
+right
+move
+left
+pebble pushtop11
+move
+pebble pushtop12
+left
+move
+left
+move
+halt
+
+pushtop11:
+get
+left
+move
+put
+right
+jump firstwin
+
+pushtop12:
+get
+left
+move
+put
+left
+move
+right
+right
+jump firstwin
+
+secondwin:
+right
+move
+left
+pebble pushtop21
+move
+pebble pushtop22
+left
+move
+halt
+
+pushtop21:
+get
+left
+move
+put
+right
+jump secondwin
+
+pushtop22:
+get
+left
+move
+put
+left
+move
+right
+right
+jump secondwin
