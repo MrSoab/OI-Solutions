@@ -1,0 +1,123 @@
+right
+right
+move
+jump ZigZagGoRight
+
+RightCarryTop:
+	left
+	RightCarryTopJustGo:
+		move
+		move 
+		border RightCarryTopReach
+		jump RightCarryTopJustGo
+	RightCarryTopReach:
+		put
+		right
+		right
+		move
+		RightCarryTopReachJustGo:
+			pebble GetOneRight
+			move
+			jump RightCarryTopReachJustGo
+GetOneRight:
+	get
+ZigZagGoRight:
+	left
+	GoRightGoGo:
+		pebble RightCarryTop
+		move
+		pebble RightCarryTop
+		move
+		pebble RightCarryTop
+		move
+		pebble RightCarryTop
+		move
+		pebble RightCarryTop
+		border TurnRight
+		move
+		jump GoRightGoGo
+TurnRight:
+	right
+	border SecondStep
+	move
+	jump ZigZagGoLeft
+LeftCarryTop:
+	right
+	LeftCarryTopJustGo:
+		move
+		move
+		border LeftCarryTopReach
+		jump LeftCarryTopJustGo
+	LeftCarryTopReach:
+		put
+		left
+		left
+		move
+		LeftCarryTopReachJustGo:
+			pebble GetOneLeft
+			move
+			jump LeftCarryTopReachJustGo
+GetOneLeft:
+	get
+ZigZagGoLeft:
+	right
+	GoLeftGoGo:
+		pebble LeftCarryTop
+		move
+		pebble LeftCarryTop
+		move
+		pebble LeftCarryTop
+		move
+		pebble LeftCarryTop
+		move
+		pebble LeftCarryTop
+		move
+		pebble LeftCarryTop
+		border TurnLeft
+		move
+		jump GoLeftGoGo
+TurnLeft:
+	left
+	move
+	jump ZigZagGoRight
+SecondStep:
+	left
+	left
+	GoGoGo:
+		move
+		move
+		move
+		move
+		border Goleft
+		jump GoGoGo
+	Goleft:
+		left
+		GoGoGoGo:
+		move
+		move
+		move
+		move
+		border HereWeAre
+		jump GoGoGoGo
+	HereWeAre:
+		right
+		right
+		HereWeAreGoGo:
+			move
+			pebble Increase
+			border End
+			jump HereWeAreGoGo
+	Increase:
+		get
+		right
+		right
+		GoGo:
+			move
+			move
+			border Reached
+			jump GoGo
+		Reached:
+			put
+			jump HereWeAre
+End:
+	halt

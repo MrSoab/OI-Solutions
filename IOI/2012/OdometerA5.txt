@@ -1,0 +1,541 @@
+BefAnswer0:
+	right
+Answer0:
+	right
+	CheckRowRight0:
+		pebble ContinueRight0
+		jump Put0
+		ContinueRight0:
+			border TurnRight0
+			move
+			jump CheckRowRight0
+	TurnRight0:
+		right
+		border Answer1
+		move
+		right
+	GoGo0:
+		border BefAnswer0
+		move
+		jump GoGo0
+BefAnswer1:
+	right
+Answer1:
+	right
+	CheckRowRight1:
+		get
+		pebble ContinueRight1
+		jump Put1
+		ContinueRight1:
+			put
+			border TurnRight1
+			move
+			jump CheckRowRight1
+	TurnRight1:
+		right
+		border Answer2
+		move
+		right
+	GoGo1:
+		border BefAnswer1
+		move
+		jump GoGo1
+BefAnswer2:
+	right
+Answer2:
+	right
+	CheckRowRight2:
+		get
+		get
+		pebble ContinueRight2
+		jump Put2
+		ContinueRight2:
+			put
+			put
+			border TurnRight2
+			move
+			jump CheckRowRight2
+	TurnRight2:
+		right
+		border Answer3
+		move
+		right
+	GoGo2:
+		border BefAnswer2
+		move
+		jump GoGo2
+BefAnswer3:
+	right
+Answer3:
+	right
+	CheckRowRight3:
+		get
+		get
+		get
+		pebble ContinueRight3
+		jump Put3
+		ContinueRight3:
+			put
+			put
+			put
+			border TurnRight3
+			move
+			jump CheckRowRight3
+	TurnRight3:
+		right
+		border Answer4
+		move
+		right
+	GoGo3:
+		border BefAnswer3
+		move
+		jump GoGo3
+BefAnswer4:
+	right
+Answer4:
+	right
+	CheckRowRight4:
+		get
+		get
+		get
+		get
+		pebble ContinueRight4
+		jump Put4
+		ContinueRight4:
+			put
+			put
+			put
+			put
+			border TurnRight4
+			move
+			jump CheckRowRight4
+	TurnRight4:
+		right
+		border Answer5
+		move
+		right
+	GoGo4:
+		border BefAnswer4
+		move
+		jump GoGo4
+BefAnswer5:
+	right
+Answer5:
+	right
+	CheckRowRight5:
+		get
+		get
+		get
+		get
+		get
+		pebble ContinueRight5
+		jump Put5
+		ContinueRight5:
+			put
+			put
+			put
+			put
+			put
+			border TurnRight5
+			move
+			jump CheckRowRight5
+	TurnRight5:
+		right
+		border Answer6
+		move
+		right
+	GoGo5:
+		border BefAnswer5
+		move
+		jump GoGo5
+BefAnswer6:
+	right
+Answer6:
+	right
+	CheckRowRight6:
+		get
+		get
+		get
+		get
+		get
+		get
+		pebble ContinueRight6
+		jump Put6
+		ContinueRight6:
+			put
+			put
+			put
+			put
+			put
+			put
+			border TurnRight6
+			move
+			jump CheckRowRight6
+	TurnRight6:
+		right
+		border Answer7
+		move
+		right
+	GoGo6:
+		border BefAnswer6
+		move
+		jump GoGo6
+BefAnswer7:
+	right
+Answer7:
+	right
+	CheckRowRight7:
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		pebble ContinueRight7
+		jump Put7
+		ContinueRight7:
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			border TurnRight7
+			move
+			jump CheckRowRight7
+	TurnRight7:
+		right
+		border Answer8
+		move
+		right
+	GoGo7:
+		border BefAnswer7
+		move
+		jump GoGo7
+BefAnswer8:
+	right
+Answer8:
+	right
+	CheckRowRight8:
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		pebble ContinueRight8
+		jump Put8
+		ContinueRight8:
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			border TurnRight8
+			move
+			jump CheckRowRight8
+	TurnRight8:
+		right
+		border Answer9
+		move
+		right
+	GoGo8:
+		border BefAnswer8
+		move
+		jump GoGo8
+BefAnswer9:
+	right
+Answer9:
+	right
+	CheckRowRight9:
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		pebble ContinueRight9
+		jump Put9
+		ContinueRight9:
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			border TurnRight9
+			move
+			jump CheckRowRight9
+	TurnRight9:
+		right
+		border Answer10
+		move
+		right
+	GoGo9:
+		border BefAnswer9
+		move
+		jump GoGo9
+BefAnswer10:
+	right
+Answer10:
+	right
+	CheckRowRight10:
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		pebble ContinueRight10
+		jump Put10
+		ContinueRight10:
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			border TurnRight10
+			move
+			jump CheckRowRight10
+	TurnRight10:
+		right
+		border Answer11
+		move
+		right
+	GoGo10:
+		border BefAnswer10
+		move
+		jump GoGo10
+BefAnswer11:
+	right
+Answer11:
+	right
+	CheckRowRight11:
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		pebble ContinueRight11
+		jump Put11
+		ContinueRight11:
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			border TurnRight11
+			move
+			jump CheckRowRight11
+	TurnRight11:
+		right
+		border Answer12
+		move
+		right
+	GoGo11:
+		border BefAnswer11
+		move
+		jump GoGo11
+BefAnswer12:
+	right
+Answer12:
+	right
+	CheckRowRight12:
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		pebble ContinueRight12
+		jump Put12
+		ContinueRight12:
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			border TurnRight12
+			move
+			jump CheckRowRight12
+	TurnRight12:
+		right
+		border Answer13
+		move
+		right
+	GoGo12:
+		border BefAnswer12
+		move
+		jump GoGo12
+BefAnswer13:
+	right
+Answer13:
+	right
+	CheckRowRight13:
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		pebble ContinueRight13
+		jump Put13
+		ContinueRight13:
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			border TurnRight13
+			move
+			jump CheckRowRight13
+	TurnRight13:
+		right
+		border Answer14
+		move
+		right
+	GoGo13:
+		border BefAnswer13
+		move
+		jump GoGo13
+BefAnswer14:
+	right
+Answer14:
+	right
+	CheckRowRight14:
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		get
+		pebble ContinueRight14
+		jump Put14
+		ContinueRight14:
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			put
+			border TurnRight14
+			move
+			jump CheckRowRight14
+	TurnRight14:
+		right
+		border Answer15
+		move
+		right
+	GoGo14:
+		border BefAnswer14
+		move
+		jump GoGo14
+Put14:
+	put
+Put13:
+	put
+Put12:
+	put
+Put11:
+	put
+Put10:
+	put
+Put9:
+	put
+Put8:
+	put
+Put7:
+	put
+Put6:
+	put
+Put5:
+	put
+Put4:
+	put
+Put3:
+	put
+Put2:
+	put
+Put1:
+	put
+Put0:
+Answer15:
+	halt
